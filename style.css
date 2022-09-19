@@ -46,18 +46,22 @@ main {
   margin-bottom: 10px;
 }
 
-.int-img {
-  width: 30%;
-  margin-right: 10px;
-  border-radius: 10px;
-}
-
 .int {
   display: flex;
   justify-content: center;
 }
 
-.int-text {
+.int-img-area {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.int-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.int-text-area {
   background-color: #fff;
   border-radius: 10px;
   width: 70%;
@@ -66,15 +70,12 @@ main {
 
 .int-items {
   height: 40px;
+  display: flex;
 }
 
 .int-head {
   width: 100px;
   font-weight: bold;
-}
-
-.int-items {
-  display: flex;
 }
 
 .fa-brands {
@@ -100,11 +101,11 @@ footer {
     display: block;
   }
 
-  .int-img {
+  .int-img-area {
     width: 100%;
   }
-
-  .int-text {
+  
+  .int-text-area {
     width: 100%;
   }
 
